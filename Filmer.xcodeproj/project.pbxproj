@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD565796D0AA06700FD3CA52 /* libPods-HD Destruction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AD3EA15FC5139CEAB99DA4 /* libPods-HD Destruction.a */; };
+		D451153E1F73635C00E16BB5 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41196DF1F563F6800DBB755 /* AVKit.framework */; };
+		D49A10A41F58E6C6009C5AEE /* References.h in Resources */ = {isa = PBXBuildFile; fileRef = D49A10A31F58E660009C5AEE /* References.h */; };
+		D49A10A51F58E6CA009C5AEE /* driveObject.h in Resources */ = {isa = PBXBuildFile; fileRef = D49A10A11F58E651009C5AEE /* driveObject.h */; };
+		D49A10A61F58E6DA009C5AEE /* References.m in Resources */ = {isa = PBXBuildFile; fileRef = D49A10A21F58E660009C5AEE /* References.m */; };
+		D49A10A71F58E6DD009C5AEE /* driveObject.m in Resources */ = {isa = PBXBuildFile; fileRef = D49A10A01F58E651009C5AEE /* driveObject.m */; };
+		D49A10A81F58E73B009C5AEE /* References.h in Sources */ = {isa = PBXBuildFile; fileRef = D49A10A31F58E660009C5AEE /* References.h */; };
+		D49A10A91F58E73F009C5AEE /* References.m in Sources */ = {isa = PBXBuildFile; fileRef = D49A10A21F58E660009C5AEE /* References.m */; };
+		D49A10AA1F58E742009C5AEE /* driveObject.h in Sources */ = {isa = PBXBuildFile; fileRef = D49A10A11F58E651009C5AEE /* driveObject.h */; };
+		D49A10AB1F58E745009C5AEE /* driveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D49A10A01F58E651009C5AEE /* driveObject.m */; };
+		D4C382D41F734A5E00332A38 /* recorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C382D31F734A5E00332A38 /* recorderView.m */; };
 		D4D47EA91F56322300F99E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D47EA81F56322300F99E48 /* AppDelegate.m */; };
-		D4D47EAC1F56322300F99E48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D47EAB1F56322300F99E48 /* ViewController.m */; };
 		D4D47EAF1F56322300F99E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D47EAD1F56322300F99E48 /* Main.storyboard */; };
 		D4D47EB11F56322300F99E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D47EB01F56322300F99E48 /* Assets.xcassets */; };
 		D4D47EB41F56322300F99E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D47EB21F56322300F99E48 /* LaunchScreen.storyboard */; };
@@ -16,11 +26,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4D47EA41F56322300F99E48 /* HD Destruction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HD Destruction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AD3EA15FC5139CEAB99DA4 /* libPods-HD Destruction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HD Destruction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AF165265D33172820B46D9 /* Pods-HD Destruction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD Destruction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HD Destruction/Pods-HD Destruction.debug.xcconfig"; sourceTree = "<group>"; };
+		633A8FD58D7FDF2595CC68AB /* Pods-HD Destruction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HD Destruction.release.xcconfig"; path = "Pods/Target Support Files/Pods-HD Destruction/Pods-HD Destruction.release.xcconfig"; sourceTree = "<group>"; };
+		D41196DD1F563D3E00DBB755 /* libLLSimpleCamera.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLLSimpleCamera.a; path = "Pods/../build/Debug-iphoneos/LLSimpleCamera/libLLSimpleCamera.a"; sourceTree = "<group>"; };
+		D41196DE1F563F6100DBB755 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D41196DF1F563F6800DBB755 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D4478C041F565362009B45B9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D4478C051F56536B009B45B9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D4478C061F565373009B45B9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D450F8151F5632EB005E63E3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D49A10A01F58E651009C5AEE /* driveObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = driveObject.m; sourceTree = "<group>"; };
+		D49A10A11F58E651009C5AEE /* driveObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = driveObject.h; sourceTree = "<group>"; };
+		D49A10A21F58E660009C5AEE /* References.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = References.m; sourceTree = "<group>"; };
+		D49A10A31F58E660009C5AEE /* References.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = References.h; sourceTree = "<group>"; };
+		D4C382D21F734A5E00332A38 /* recorderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = recorderView.h; sourceTree = "<group>"; };
+		D4C382D31F734A5E00332A38 /* recorderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recorderView.m; sourceTree = "<group>"; };
+		D4D47EA41F56322300F99E48 /* Filmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D47EA71F56322300F99E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4D47EA81F56322300F99E48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D4D47EAA1F56322300F99E48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D4D47EAB1F56322300F99E48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D4D47EAE1F56322300F99E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4D47EB01F56322300F99E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4D47EB31F56322300F99E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,24 +57,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D451153E1F73635C00E16BB5 /* AVKit.framework in Frameworks */,
+				CD565796D0AA06700FD3CA52 /* libPods-HD Destruction.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12680C6AD5146EF57936AAF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45AF165265D33172820B46D9 /* Pods-HD Destruction.debug.xcconfig */,
+				633A8FD58D7FDF2595CC68AB /* Pods-HD Destruction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEB18F9BE34284697B176209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4478C061F565373009B45B9 /* GLKit.framework */,
+				D4478C051F56536B009B45B9 /* AudioToolbox.framework */,
+				D4478C041F565362009B45B9 /* CoreVideo.framework */,
+				D41196DF1F563F6800DBB755 /* AVKit.framework */,
+				D41196DE1F563F6100DBB755 /* AVFoundation.framework */,
+				D41196DD1F563D3E00DBB755 /* libLLSimpleCamera.a */,
+				07AD3EA15FC5139CEAB99DA4 /* libPods-HD Destruction.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4D47E9B1F56322300F99E48 = {
 			isa = PBXGroup;
 			children = (
+				D450F8151F5632EB005E63E3 /* Podfile */,
 				D4D47EA61F56322300F99E48 /* HD Destruction */,
 				D4D47EA51F56322300F99E48 /* Products */,
+				12680C6AD5146EF57936AAF0 /* Pods */,
+				CEB18F9BE34284697B176209 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D4D47EA51F56322300F99E48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4D47EA41F56322300F99E48 /* HD Destruction.app */,
+				D4D47EA41F56322300F99E48 /* Filmer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,15 +110,19 @@
 		D4D47EA61F56322300F99E48 /* HD Destruction */ = {
 			isa = PBXGroup;
 			children = (
+				D49A10A31F58E660009C5AEE /* References.h */,
+				D49A10A21F58E660009C5AEE /* References.m */,
+				D49A10A11F58E651009C5AEE /* driveObject.h */,
+				D49A10A01F58E651009C5AEE /* driveObject.m */,
 				D4D47EA71F56322300F99E48 /* AppDelegate.h */,
 				D4D47EA81F56322300F99E48 /* AppDelegate.m */,
-				D4D47EAA1F56322300F99E48 /* ViewController.h */,
-				D4D47EAB1F56322300F99E48 /* ViewController.m */,
 				D4D47EAD1F56322300F99E48 /* Main.storyboard */,
 				D4D47EB01F56322300F99E48 /* Assets.xcassets */,
 				D4D47EB21F56322300F99E48 /* LaunchScreen.storyboard */,
 				D4D47EB51F56322300F99E48 /* Info.plist */,
 				D4D47EB61F56322300F99E48 /* main.m */,
+				D4C382D21F734A5E00332A38 /* recorderView.h */,
+				D4C382D31F734A5E00332A38 /* recorderView.m */,
 			);
 			path = "HD Destruction";
 			sourceTree = "<group>";
@@ -74,21 +130,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4D47EA31F56322300F99E48 /* HD Destruction */ = {
+		D4D47EA31F56322300F99E48 /* Filmer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4D47EBA1F56322300F99E48 /* Build configuration list for PBXNativeTarget "HD Destruction" */;
+			buildConfigurationList = D4D47EBA1F56322300F99E48 /* Build configuration list for PBXNativeTarget "Filmer" */;
 			buildPhases = (
+				D00BCA95528161B78FBF5408 /* [CP] Check Pods Manifest.lock */,
 				D4D47EA01F56322300F99E48 /* Sources */,
 				D4D47EA11F56322300F99E48 /* Frameworks */,
 				D4D47EA21F56322300F99E48 /* Resources */,
+				B3097819138D744B78140562 /* [CP] Embed Pods Frameworks */,
+				4A63607B73B455BD9AFA33F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "HD Destruction";
+			name = Filmer;
 			productName = "HD Destruction";
-			productReference = D4D47EA41F56322300F99E48 /* HD Destruction.app */;
+			productReference = D4D47EA41F56322300F99E48 /* Filmer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4D47E9F1F56322300F99E48 /* Build configuration list for PBXProject "HD Destruction" */;
+			buildConfigurationList = D4D47E9F1F56322300F99E48 /* Build configuration list for PBXProject "Filmer" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4D47EA31F56322300F99E48 /* HD Destruction */,
+				D4D47EA31F56322300F99E48 /* Filmer */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +187,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49A10A71F58E6DD009C5AEE /* driveObject.m in Resources */,
+				D49A10A61F58E6DA009C5AEE /* References.m in Resources */,
+				D49A10A51F58E6CA009C5AEE /* driveObject.h in Resources */,
+				D49A10A41F58E6C6009C5AEE /* References.h in Resources */,
 				D4D47EB41F56322300F99E48 /* LaunchScreen.storyboard in Resources */,
 				D4D47EB11F56322300F99E48 /* Assets.xcassets in Resources */,
 				D4D47EAF1F56322300F99E48 /* Main.storyboard in Resources */,
@@ -136,12 +199,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A63607B73B455BD9AFA33F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HD Destruction/Pods-HD Destruction-resources.sh",
+				"${PODS_ROOT}/PBJVision/Source/Shaders/Shader.fsh",
+				"${PODS_ROOT}/PBJVision/Source/Shaders/Shader.vsh",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HD Destruction/Pods-HD Destruction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3097819138D744B78140562 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HD Destruction/Pods-HD Destruction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00BCA95528161B78FBF5408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HD Destruction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4D47EA01F56322300F99E48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D47EAC1F56322300F99E48 /* ViewController.m in Sources */,
+				D49A10AB1F58E745009C5AEE /* driveObject.m in Sources */,
+				D4C382D41F734A5E00332A38 /* recorderView.m in Sources */,
+				D49A10AA1F58E742009C5AEE /* driveObject.h in Sources */,
+				D49A10A91F58E73F009C5AEE /* References.m in Sources */,
+				D49A10A81F58E73B009C5AEE /* References.h in Sources */,
 				D4D47EB71F56322300F99E48 /* main.m in Sources */,
 				D4D47EA91F56322300F99E48 /* AppDelegate.m in Sources */,
 			);
@@ -275,34 +397,36 @@
 		};
 		D4D47EBB1F56322300F99E48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AF165265D33172820B46D9 /* Pods-HD Destruction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UD5W2M958Y;
 				INFOPLIST_FILE = "HD Destruction/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fullytoasted.HD-Destruction";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullytoasted.filmer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D4D47EBC1F56322300F99E48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633A8FD58D7FDF2595CC68AB /* Pods-HD Destruction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UD5W2M958Y;
 				INFOPLIST_FILE = "HD Destruction/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fullytoasted.HD-Destruction";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullytoasted.filmer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4D47E9F1F56322300F99E48 /* Build configuration list for PBXProject "HD Destruction" */ = {
+		D4D47E9F1F56322300F99E48 /* Build configuration list for PBXProject "Filmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4D47EB81F56322300F99E48 /* Debug */,
@@ -311,13 +435,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4D47EBA1F56322300F99E48 /* Build configuration list for PBXNativeTarget "HD Destruction" */ = {
+		D4D47EBA1F56322300F99E48 /* Build configuration list for PBXNativeTarget "Filmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4D47EBB1F56322300F99E48 /* Debug */,
 				D4D47EBC1F56322300F99E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
